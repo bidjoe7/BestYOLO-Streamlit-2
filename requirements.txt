@@ -39,11 +39,16 @@ seaborn>=0.11.0
 # openvino-dev  # OpenVINO export
 
 # Deploy ----------------------------------------------------------------------
-# tritonclient[all]~=2.24.0
+tritonclient[all]~=2.24.0
 
 # Extras ----------------------------------------------------------------------
-# mss  # screenshots
-# albumentations>=1.0.3
+mss  # screenshots
+albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
-# roboflow
-# ultralytics  # HUB https://hub.ultralytics.com
+roboflow
+ultralytics  # HUB https://hub.ultralytics.com
+ipython  # interactive notebook
+psutil  # system utilization
+thop  # FLOPs computation
+streamlit
+wget
